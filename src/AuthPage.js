@@ -29,7 +29,7 @@ function AuthPage(props) {
         <div className="form-subtitle">Set a username and password to get started</div>
 
         <div className="auth">
-          <div className="auth-label">Username</div>
+          <div className="" style={{color:'white',}}>Username</div>
           <input
             className="auth-input"
             type="text"
@@ -39,7 +39,7 @@ function AuthPage(props) {
             required
           />
 
-          <div className="auth-label">Password</div>
+          <div className=""style={{color:'white',}}>Password</div>
           <input
             className="auth-input"
             type="password"
