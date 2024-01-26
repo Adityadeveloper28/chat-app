@@ -15,12 +15,8 @@ function ChatsPage(props) {
   );
   return (
     <div style={{ height: "100vh" }}>
-      <PrettyChatWindow
-        projectId="e74bd17d-97a6-45e9-b354-bd6be62188e6"
-        username={props.user.username}
-        secret={props.user.secret}
-        style={{ height: "100%" }}
-      />
+      <MultiChatWindow {...chatProps} />
+      <MultiChatSocket {...chatProps} />
     </div>
   );
 }
